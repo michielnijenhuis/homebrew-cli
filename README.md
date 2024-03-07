@@ -15,5 +15,5 @@ brew install michielnijenhuis/cli/envc
 ```
 Example:
 ```bash
-envc compare --interlace -mdu
+envc compare --interpolate -mdu
 ```
