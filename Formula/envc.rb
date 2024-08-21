@@ -9,7 +9,7 @@ class Envc < Formula
     depends_on "make"
 
     def install
-        system "make build"
+        system "make", "build"
         bin.install "bin/envc"
     end
 end
