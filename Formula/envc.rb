@@ -5,6 +5,7 @@ class Envc < Formula
     sha256 "2ff47d28dc11521c292b84e0dc8d2b04186ea273f409ae071ed108b5f25e9fda"
     license "MIT"
     
+    depends_on "go"
     depends_on "make"
 
     def install
